@@ -22,8 +22,6 @@
 library("tidyverse")
 library("here")
 library("vcd")
-#library(kableExtra)
-#library("vcdExtra")
 library("ggcorrplot")
 #```
 #
