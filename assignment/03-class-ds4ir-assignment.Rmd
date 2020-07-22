@@ -1,0 +1,52 @@
+---
+title: "03-class-ds4ir-assignment"
+author: "seu nome aqui"
+date: "`r format(Sys.time(), '%d-%m-%Y')`"
+output: 
+  html_document:
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r pck, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(here)
+```
+
+# Assignment {-}
+
+Com a base de dados `afghan.csv` e as respostas referentes à pergunta abaixo:
+
+**Survey question**: "Over the past year, have you or anyone in your family suffered 
+harm due to the actions of the Foreign Forces / the Taliban?"
+
+- Apresente visualmente o resultado percentual de incidência do dano
+em relação à faixa de renda e a origem do dano:
+
+Utilize o *code chunk* abaixo para desenvolver sua resposta. 
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, fig.width=6, fig.height=4}
+
+```
+
+- Apresente o resultado do item anterior por distrito. Se conseguir, 
+faça numa única visualização:
+
+Utilize o *code chunk* abaixo para desenvolver sua resposta. Se necessário, crie 
+outros *code chunks*.
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, fig.width=12, fig.height=10}
+
+
+```
+
+
+- Produza um documento .html com o resultado de sua análise
+
+**Observação**: O documento gerado deve omitir o seu código. E não se esqueça de colocar seu nome.
+
+
+
