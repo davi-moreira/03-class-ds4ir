@@ -179,6 +179,30 @@ sd(afghan$educ.years)
 afghan %>% select(educ.years) %>% var %>% sqrt
 ```
 
+## Exercicio
+
+A base de dados a seguir apresenta o desempenho de duas turmas numa prova de matemática.
+Analise os dados e indique a principal diferença entre elas.
+
+```{r, results = 'asis', eval = FALSE}
+mat <- tibble(T1 = c(7,3,5,6,4), 
+              T2 = c(rep(5, 5)))
+```
+
+## Exercicio: resposta
+<!---
+```{r, results = 'asis', eval = FALSE}
+mat <- tibble(T1 = c(7,3,5,6,4), 
+              T2 = c(rep(5, 5)))
+
+summary(mat)
+
+sd(mat$T1)
+sd(mat$T2)
+
+```
+--->
+
 ## Visualizando a distribuição univariada - Barplot
 
 ```{r echo = FALSE, message=FALSE, warning=FALSE}
