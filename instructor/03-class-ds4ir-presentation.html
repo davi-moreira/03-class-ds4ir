@@ -1921,7 +1921,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
   <h1 class="subtitle">Análise Exploratória</h1>
     <h2 class="author">Professor Davi Moreira</h2>
     <h2 class="author">Professor Rafael Magalhães</h2>
-    <h3 class="date">23-07-2020</h3>
+    <h3 class="date">24-07-2020</h3>
 </section>
 
 <section id="section" class="slide level2">
@@ -2193,7 +2193,7 @@ aloque o resultado num vetor chamado `gini_congress`.
 
 ```r
 # solução
-gini_congress <- gini_us %>% select(gini) %>% slice(gini, seq(2, nrow(gini_us), by = 2))
+gini_congress <- gini_us %>% select(gini) %>% slice(seq(2, nrow(gini_us), by = 2))
 
 # alternativa
 alternativa <- gini_us$gini[seq(2, nrow(gini_us), by = 2)]
